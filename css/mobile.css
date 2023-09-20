@@ -1,0 +1,80 @@
+@media screen and (max-width: 1920px) {
+  .header-container {
+    padding: 13px 23px 13px 16px;
+    max-width: 375px;
+  }
+
+  .header-logo {
+    margin-right: 110px;
+  }
+  .header-menu {
+    display: none;
+  }
+
+  .tel {
+    display: none;
+  }
+
+  .register-btn {
+    margin-right: 26px;
+    color: var(--dark, #2b2b2a);
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .menu-open {
+    width: 25px;
+    height: 16px;
+    padding: 0;
+    border: none;
+  }
+
+  .about-container {
+    margin: 0 auto;
+    max-width: 375px;
+    padding: 60px 37px;
+    text-align: center;
+  }
+
+  .about-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .about-list {
+    row-gap: 30px;
+  }
+
+  .about-list > li {
+    max-width: 150px;
+  }
+
+  .hero {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 168px 16px 60px 16px;
+    max-width: 375px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: url(../img/bg-mob.jpg) no-repeat center top, #2b2b2a;
+  }
+
+  .hero-course-title {
+    margin: -25px;
+  }
+
+  .hero-title {
+    top: 275px;
+  }
+
+  .hero-info-list {
+    margin-top: 90px;
+    max-width: 220px;
+  }
+
+  .hero-course-wrap {
+    flex-direction: column-reverse;
+    gap: 50px;
+    margin-top: 50px;
+  }
+}

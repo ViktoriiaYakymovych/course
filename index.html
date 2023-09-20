@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/desctop.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img
+          class="header-logo"
+          src="./img/logo.jpg"
+          alt="logo"
+          width="60"
+          height="35"
+        />
+        <ul class="header-menu">
+          <li>
+            <select name="" id="">
+              <option value="">Офлайн програми</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="">
+              <option value="">Онлайн програми</option>
+            </select>
+          </li>
+          <li><a href="#">Розклад</a></li>
+          <li><a href="#">Тренери</a></li>
+          <li>
+            <select name="" id="">
+              <option value="">Тести</option>
+            </select>
+          </li>
+          <li><a href="#">Блог</a></li>
+        </ul>
+
+        <a class="tel" href="tel:+380991231212">+38 (099) 123-12-12</a>
+        <button type="button" class="register-btn">Вхід | Реєстрація</button>
+        <button type="button" class="menu-open">
+          <svg width="25" height="15">
+            <use href="./img/symbol-defs.svg#icon-burger" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <ul class="hero-btn-list">
+            <li>
+              <button class="hero-btn-info online" type="button">ONLINE</button>
+            </li>
+            <li>
+              <button class="hero-btn-info hot" type="button">
+                ХІТ продаж
+              </button>
+            </li>
+          </ul>
+          <h2 class="hero-course-title">КУРС</h2>
+          <h1 class="hero-title">Таргетована реклама</h1>
+          <ul class="hero-info-list">
+            <li class="hero-info-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M2 8.25L6.75 13L14 1"
+                  stroke="#E0FF00"
+                  stroke-width="3"
+                />
+              </svg>
+              <p>Трудоустройство для выпускников</p>
+            </li>
+            <li class="hero-info-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M2 8.25L6.75 13L14 1"
+                  stroke="#E0FF00"
+                  stroke-width="3"
+                />
+              </svg>
+              <p>Новейшие программы для 2022 года +</p>
+            </li>
+          </ul>
+          <div class="hero-course-wrap">
+            <div class="price-wrap">
+              <div class="hero-price-info">
+                <p class="hero-price-text">Вартість:</p>
+                <div>
+                  <p class="previous-price">20 000 грн</p>
+                  <p class="current-price">
+                    16 000 <sup class="current-price-sup">грн</sup>
+                  </p>
+                </div>
+              </div>
+              <div class="left-places-wrap">
+                <button class="take-course-btn" type="button">
+                  ЗАПИСАТИСЬ НА КУРС
+                </button>
+                <p class="left-places-info">
+                  Залишилося <b>3 місця </b> на курсі
+                </p>
+              </div>
+            </div>
+            <ul class="about-course-list">
+              <li class="about-course-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2"
+                  height="42"
+                  viewBox="0 0 2 42"
+                  fill="none"
+                >
+                  <path d="M1 0L1 42" stroke="#E0FF00" />
+                </svg>
+                <div>
+                  <p>Старт курсу:</p>
+                  <p class="about-course-text">21 березня 2022</p>
+                </div>
+              </li>
+              <li class="about-course-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2"
+                  height="42"
+                  viewBox="0 0 2 42"
+                  fill="none"
+                >
+                  <path d="M1 0L1 42" stroke="#E0FF00" />
+                </svg>
+                <div>
+                  <p>Тривалість:</p>
+                  <p class="about-course-text">5 тижнів</p>
+                </div>
+              </li>
+              <li class="about-course-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2"
+                  height="42"
+                  viewBox="0 0 2 42"
+                  fill="none"
+                >
+                  <path d="M1 0L1 42" stroke="#E0FF00" />
+                </svg>
+                <div>
+                  <p>Рівень знань:</p>
+                  <p class="about-course-text">Продвинутий</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="about-container">
+          <h2 class="about-title">Кому підійде навчання</h2>
+          <ul class="about-list">
+            <li>
+              <svg width="80" height="80">
+                <use href="./img/symbol-defs.svg#icon-svg-1" />
+              </svg>
+              <p>Початківцям маркетологам</p>
+            </li>
+            <li>
+              <svg width="80" height="80">
+                <use href="./img/symbol-defs.svg#icon-svg-2-mob" />
+              </svg>
+              <p>Початківцям інтернет-маркетологам</p>
+            </li>
+            <li>
+              <svg width="80" height="80">
+                <use href="./img/symbol-defs.svg#icon-svg-2" />
+              </svg>
+              <p>Досвідченим маркетологам</p>
+            </li>
+            <li>
+              <svg width="80" height="80">
+                <use href="./img/symbol-defs.svg#icon-svg-3" />
+              </svg>
+              <p>Підприємцям-маркетологам</p>
+            </li>
+            <li>
+              <svg width="80" height="80">
+                <use href="./img/symbol-defs.svg#icon-svg-4" />
+              </svg>
+              <p>Власникам малого бізнесу</p>
+            </li>
+            <li>
+              <svg width="80" height="80">
+                <use href="./img/symbol-defs.svg#icon-svg-5" />
+              </svg>
+              <p>Керівникам відділів маркетингу</p>
+            </li>
+            <li>
+              <svg width="80" height="80">
+                <use href="./img/symbol-defs.svg#icon-svg-6" />
+              </svg>
+              <p>Керівникам проектів</p>
+            </li>
+            <li>
+              <svg width="80" height="80">
+                <use href="./img/symbol-defs.svg#icon-svg-8-mob" />
+              </svg>
+              <p>Початківцям смм-менеджерам</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
