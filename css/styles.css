@@ -165,10 +165,21 @@ button {
 }
 
 .previous-price {
+  position: relative;
   font-family: Roboto;
   font-size: 22px;
   line-height: 150%;
   color: #b7b7b7;
+}
+
+.previous-price::after {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  content: '';
+  width: 60%;
+  height: 2px;
+  background-color: #b7b7b7;
 }
 
 .current-price {
